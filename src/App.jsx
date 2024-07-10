@@ -4,6 +4,7 @@ import React from 'react'
 import NavbarComp from '../navbar'
 import BotonComp from '../buttonComp'
 import FormComp from '../formComp'
+import ImageComp from './imageComp'
 
 function App() {
 
@@ -18,6 +19,11 @@ function App() {
      </header>
 
      <main>
+
+       <section>
+          <ImageComp></ImageComp>
+       </section>
+
        <section id="home">
            <BotonComp text="Empezar" onClick={handleClick} />
        </section>
