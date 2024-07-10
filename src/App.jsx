@@ -7,12 +7,10 @@ import FormComp from '../formComp'
 
 function App() {
 
-    const handleClick = () => {
-      alert('Botón clicado');
-    }  
+    const handleClick = () => {alert('Botón clicado');}  
 
      return (
-
+       
     <>
       
      <header>

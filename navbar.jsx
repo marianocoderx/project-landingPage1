@@ -1,13 +1,21 @@
-import React from "react"
+import React,{ useState } from "react"
+import BotonComp from "./buttonComp"
+import "./stylesheets/navbar.css"
 
 export default function NavbarComp(){
+
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleDropdown = () => {setIsOpen(!isOpen);};
+
     return(
         <>
-         <nav>
+         <nav className="navBarStyle">
 
            <div class="logo">Mi Logo</div>
 
-             <ul class="nav-links">
+           <button className="dropdown-button" onClick={toggleDropdown}> Menu </button>
+
+            <ul className={`nav-links ${isOpen ? "show" : ""}`}>
 
                <li><a href="#home">Inicio</a></li>
                <li><a href="#about">Acerca de</a></li>
