@@ -34,7 +34,7 @@
   /* tablets and large phones */
   @media (min-width: 600px) and (max-width: 767px) {
     .bgContainer {
-        height: 80vh; /* Ajusta según tus necesidades */
+        height: 110vh; /* Ajusta según tus necesidades */
         width: 100%;
     }
     .content {
@@ -45,7 +45,7 @@
   /* Medium tablets */
   @media (min-width: 768px) and (max-width: 991px) {
     .bgContainer {
-        height: 70vh; /* Ajusta según tus necesidades */
+        height: 100vh; /* Ajusta según tus necesidades */
         width: 100%;
     }
     .content {
@@ -56,7 +56,7 @@
   /* laptops/desktops */
   @media (min-width: 992px) and (max-width: 1199px) {
     .bgContainer {
-        height: 60vh; /* Ajusta según tus necesidades */
+        height: 90vh; /* Ajusta según tus necesidades */
         width: 100%;
     }
     .content {
@@ -67,7 +67,7 @@
   /* large laptops and desktops */
   @media (min-width: 1200px) {
     .bgContainer {
-        height: 50vh; /* Ajusta según tus necesidades */
+        height: 90vh; /* Ajusta según tus necesidades */
         width: 100%;
     }
     .content {
