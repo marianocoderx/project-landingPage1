@@ -5,6 +5,7 @@ import NavbarComp from '../navbar'
 import BotonComp from '../buttonComp'
 import FormComp from '../formComp'
 import ImageComp from './imageComp'
+import Section1 from './section1'
 
 function App() {
 
@@ -25,7 +26,7 @@ function App() {
        </section>
 
        <section id="home">
-           <BotonComp text="Empezar" onClick={handleClick} />
+           <Section1/>
        </section>
 
        <section id="about">

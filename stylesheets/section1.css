@@ -1,0 +1,14 @@
+.mainContainer {
+    padding: 20px;
+  }
+  
+  .titleContainer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cardsContainer {
+    display: flex;
+    justify-content: space-around; /* Space out the cards */
+  }
+  

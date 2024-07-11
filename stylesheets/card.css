@@ -1,0 +1,13 @@
+.cardContainer{
+
+  width: 300px; /* Adjust width */
+  height: 200px; /* Adjust height */
+  padding: 20px; /* Add padding */
+  margin: 10px; /* Add margin */
+  border: 1px solid red; /* Add border */
+  border-radius: 10px; /* Add border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
