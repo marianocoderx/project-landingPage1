@@ -6,7 +6,7 @@ export default function ImageComp () {
     return (
         <>
         <div className="bgContainer">
-            <div>
+            <div className="txtContainer">
                 <h1>Lorem ipsum dolor sit amet consectetur.</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quisquam.</p>
                 <BotonComp text="Info"></BotonComp>

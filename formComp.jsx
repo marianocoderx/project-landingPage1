@@ -1,4 +1,5 @@
 import React from "react";
+import "./stylesheets/form.css";
 
 export default function FormComp (){
     return(

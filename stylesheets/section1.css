@@ -1,5 +1,7 @@
 .mainContainer {
-    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid blue;
   }
   
   .titleContainer {
@@ -10,5 +12,68 @@
   .cardsContainer {
     display: flex;
     justify-content: space-around; /* Space out the cards */
+  }
+  
+  /* Media Queries */
+  
+  /* cellphones */
+  @media (max-width: 599px) {
+    .mainContainer {
+      height: 160vh;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .cardsContainer {
+      height: 130vh;
+      width: 90%;
+      flex-direction: column; /* Stack cards vertically */
+      align-items: center; /* Center cards horizontally */
+    }
+  }
+  
+  /* tablets and large phones */
+  @media (min-width: 600px) and (max-width: 767px) {
+    .mainContainer {
+      height: 180vh;
+    }
+    .cardsContainer {
+      flex-direction: column; /* Stack cards vertically */
+      align-items: center; /* Center cards horizontally */
+    }
+  }
+  
+  /* Medium tablets */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .mainContainer {
+      height: 180vh;
+    }
+    .cardsContainer {
+      flex-direction: column; /* Stack cards vertically */
+      align-items: center; /* Center cards horizontally */
+    }
+  }
+  
+  /* laptops/desktops */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .mainContainer {
+      height: 90vh;
+    }
+    .cardsContainer {
+      
+      flex-direction: row; /* Default flex direction (horizontal) */
+      justify-content: space-around; /* Space out the cards */
+    }
+  }
+  
+  /* large laptops and desktops */
+  @media (min-width: 1200px) {
+    .mainContainer {
+      height: 90vh;
+    }
+    .cardsContainer {
+      
+      flex-direction: row; /* Default flex direction (horizontal) */
+      justify-content: space-around; /* Space out the cards */
+    }
   }
   

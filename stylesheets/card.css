@@ -11,3 +11,41 @@
   flex-direction: column;
   justify-content: center;
 }
+
+
+/* Media Queries */
+  
+  /* cellphones */
+  @media (max-width: 599px) {
+    .cardContainer{
+      height: 220px;
+      width: 270px;
+      align-items: center;
+    }
+  }
+  
+  /* tablets and large phones */
+  @media (min-width: 600px) and (max-width: 767px) {
+    
+  }
+  
+  /* Medium tablets */
+  @media (min-width: 768px) and (max-width: 991px) {
+    
+  }
+  
+  /* laptops/desktops */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .cardContainer{
+      height: 240px;
+    }
+  }
+  
+  /* large laptops and desktops */
+  @media (min-width: 1200px) {
+    .cardContainer{
+      height: 240px;
+    }
+    
+  }
+  
