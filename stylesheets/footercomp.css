@@ -3,5 +3,11 @@
     width: 100%;
 
     border: red solid 1px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
+.footerContainer div{
+    border: blue solid 1px;
+}
