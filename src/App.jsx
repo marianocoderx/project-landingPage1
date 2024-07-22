@@ -6,6 +6,7 @@ import BotonComp from '../buttonComp'
 import FormComp from '../formComp'
 import ImageComp from './imageComp'
 import Section1 from './section1'
+import FooterComp from './footerComp'
 
 function App() {
 
@@ -42,9 +43,7 @@ function App() {
        </section>
      </main>
 
-     <footer>
-       <p>&copy; 2024 Mi Empresa. Todos los derechos reservados.</p>
-     </footer>
+     <FooterComp/>
 
     </>
   )
