@@ -5,9 +5,17 @@
     border: red solid 1px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
 }
 
 .footerContainer div{
     border: blue solid 1px;
+    
 }
+
+.footerContainer div:first-child{
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+
