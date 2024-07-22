@@ -7,6 +7,8 @@ import FormComp from '../formComp'
 import ImageComp from './imageComp'
 import Section1 from './section1'
 import FooterComp from './footerComp'
+import CarouselComp from './carouselcomp'
+import AboutComp from './aboutComp'
 
 function App() {
 
@@ -31,11 +33,11 @@ function App() {
        </section>
 
        <section id="about">
-           <BotonComp text="Aprende mas" onClick={handleClick} />
+           <AboutComp/>
        </section>
 
        <section id="services">
-           <BotonComp text="Conocelos" onClick={handleClick} />
+           <CarouselComp/>
        </section>
 
        <section id="contact">

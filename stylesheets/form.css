@@ -1,5 +1,19 @@
 
+.formContainer{
+    height: 500px;
+    width: 100%;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: red solid 1px;
+}
+
+.InnerFormContainer{
+    height: 100%;
+    width: 100%;
+}
 
 /* Media Queries */
   
