@@ -10,10 +10,18 @@
     border: red solid 1px;
 }
 
-.InnerFormContainer{
-    height: 100%;
-    width: 100%;
+.innerFormContainer{
+    height: 400px;
+    width: 700px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: blue solid 1px;
 }
+
 
 /* Media Queries */
   
