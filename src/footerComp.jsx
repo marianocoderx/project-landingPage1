@@ -6,10 +6,38 @@ export default function FooterComp (){
         <>
         <footer className="footerContainer">
 
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
+            <div>
+                
+            </div>
+
+            <div>
+                <ul>
+                    <li>Historia</li>
+                    <li>Mision-vision</li>
+                    <li>Equipo</li>
+                    <li>Valores</li>
+                    <li>Logros</li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li>Introduccion</li>
+                    <li>Ultimas noticias</li>
+                    <li>Destacados</li>
+                    <li>Testimonios</li>
+                </ul>
+            </div>
+
+            <div>
+            <ul>
+                    <li>Consultoria</li>
+                    <li>Desarrollo de software</li>
+                    <li>Soporte tecnico</li>
+                    <li>Capacitacion</li>
+                    <li>IT Solutions</li>
+                </ul>
+            </div>
 
         </footer>
         </>
